@@ -65,7 +65,7 @@ youtube-insight-generator/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+###  Clone Repository
 
 ```
 git clone https://github.com/your-username/youtube-article_generator.git
@@ -76,30 +76,13 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 
-### 4️⃣ Add API Key
-
+###  Add API Key
 Create a `.env` file:
-
-```
 GOOGLE_API_KEY=your_api_key_here
-```
 
----
 
-### 5️⃣ Run Application
-
-```
+###  Run Application
 streamlit run app.py
-```
-
----
-
-## ☁️ Deployment (AWS EC2)
-
-```
-streamlit run app.py --server.port 8501 --server.address 0.0.0.0
-http://your-ec2-ip:8501
-```
 
 ---
 
